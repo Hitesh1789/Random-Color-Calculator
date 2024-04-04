@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 3px;
+}
+
+body{
+    background-color:beige;
+}
+
+.textcenter{
+    text-align:center;
+}
+.flex{
+    display: flex;
+}
+
+.flexcol{
+    flex-direction: column ;
+    gap:5px;
+}
+
+.alignitm{
+    align-items: center;
+}
+
+.bgblack{
+    background-color: rgb(5, 5, 5);
+    width: 176px;
+    height: 299px;
+    place-content: center;
+    border-radius: 5px;
+}
+
+.aqua{
+    color: rgb(59, 200, 247);
+}
+
+
+.row button{
+    width: 37px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+input{
+    height: 27px;
+    width: 155px;
+    border-radius: 7px;
+    text-align: right;
+    border: none;
+}
+
+.random{
+    color: white;
+}
